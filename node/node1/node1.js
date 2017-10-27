@@ -1,6 +1,5 @@
 // 王安安 node.js
 
-
 // var log = function (message) {
 //     ProcessingInstruction.stdout.write(wangan + '\n');
 // }
@@ -36,11 +35,9 @@ var render = () => {
         current = 0;
     }
     process.stdout.write(frames[current++]);
-
 }
 
 setInterval(render, 1000 / fps);
-
 
 // 打印控制台宽高
 var size = process.stdout.getWindowSize();
